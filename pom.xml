@@ -6,7 +6,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.3.0</version> <!-- 确认你使用的版本是否正确 -->
+		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.song</groupId>
@@ -15,7 +15,7 @@
 	<name>myapp</name>
 	<description>Project for Spring Boot and MyBatis</description>
 	<properties>
-		<java.version>17</java.version> <!-- 建议使用更新的 Java 版本 -->
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -35,7 +35,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId> 
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
